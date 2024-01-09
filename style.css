@@ -1,0 +1,109 @@
+.titl{
+    color: red;
+    text-align: center;
+    height: 50px;
+    font-family: cursive;
+}
+
+.par{
+    color: blue;
+    font-family: fantasy;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.course{
+    color: black;
+    font-family:monospace ;
+    font-size: 20px;
+    height: 35px;
+    text-align: center;
+}
+
+.techno{
+    background-color: yellow;
+    font-size: 32px;
+    text-align: center;
+    height: 34px;
+}
+
+.flex-container1 , .flex-container2{
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+
+  
+  .flex-container1 > div {
+    background-color: DodgerBlue;
+    color: #000;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    font-family: cursive;
+    border-radius: 20px;
+  }
+
+  
+  
+  .flex-container2 > div {
+    background-color:orange;
+    color: #000;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    font-family: cursive;
+    border-radius: 20px;
+  }
+
+  #a1 ,#b3{
+    background-color: rgb(216, 165, 174);
+  }
+  #a1 #a2:hover,
+  
+  #a3:hover,
+  #a4:hover,
+  #a5:hover,#a6:hover,#b1:hover,#b2:hover,#b3:hover,#b4:hover,#b5:hover,#b6:hover{
+    background-color: rgb(216, 216, 58);
+  }
+  
+  #a2,#b6{
+    background-color: blue;
+  }
+  #a3,#b1{
+    background-color: bisque;
+  }
+#a4,#b5{
+    background-color: aquamarine;
+}
+#a5{
+    background-color: olive;
+}
+
+.logo{
+    text-align: center;
+    font-size: 27px;
+    font-family: Impact;
+    padding-top: 20px;
+}
+
+.footer1{
+    background-color: green;
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 12px;
+    padding-top: 15px;
+}
+
+.footer2{
+    text-align: center;
+    font-size: 27px;
+    color: #000;
+    padding-top: 17px;
+}
+
+  
